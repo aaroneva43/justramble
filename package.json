@@ -18,5 +18,8 @@
   "homepage": "https://github.com/aaroneva43/justramble#readme",
   "devDependencies": {
     "less": "^4.1.3"
+  },
+  "dependencies": {
+    "rsuite": "^5.16.0"
   }
 }
