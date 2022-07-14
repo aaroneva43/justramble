@@ -1,0 +1,22 @@
+@color: #999;
+@bgColor: skyblue;
+@width: 50%;
+
+.btn-bg-mixin (@a) when (@a > 22px) {
+  color: blue;
+}
+
+.btn-bg-mixin (@a) when (@a <= 20px) {
+  color:red;
+}
+
+.btn-bg-mixin (@a) {
+  font-size: @a;
+}
+
+#wrap {
+  color: @color;
+  background: @bgColor;
+  width: @width;
+  .btn-bg-mixin(23px);
+}

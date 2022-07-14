@@ -1,0 +1,22 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaroneva43/justramble.git"
+  },
+  "author": "aaron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaroneva43/justramble/issues"
+  },
+  "homepage": "https://github.com/aaroneva43/justramble#readme",
+  "devDependencies": {
+    "less": "^4.1.3"
+  }
+}
