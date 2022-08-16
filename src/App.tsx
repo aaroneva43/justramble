@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Button, Form, ButtonToolbar, CustomProvider } from "rsuite";
+import { Button, Form, ButtonToolbar, CustomProvider } from "shadow-ui";
 
 // import default style
 import "./App.less";
