@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Button, Form, ButtonToolbar, CustomProvider } from "shadow-ui";
+import { Button, Form, ButtonToolbar, CustomProvider } from "rsuite";
 
 // import default style
 import "./App.less";
@@ -12,7 +12,7 @@ const styles = {
 
 function App() {
   return (
-    <CustomProvider classPrefix="shadowui">
+    <CustomProvider>
       <div style={styles}>
         <h4>{"Rsuite -> Metronic"}</h4>
         <br></br>
